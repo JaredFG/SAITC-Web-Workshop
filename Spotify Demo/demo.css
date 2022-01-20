@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("static/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat-light;
+    src: url("static/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: Montserrat-Semibold;
+    src: url("static/Montserrat-SemiBold.ttf");
+}
+h1{
+    font-family: Montserrat;
+}
+
+.content{
+    padding: 0 30px;
+
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('the neighbourhood.png'); 
+    background-size: cover;
+    color: white;
+    font-family: Montserrat;
+}
+.playing-from-all{
+    padding-top: 50px;
+    margin-left: 150px;
+    color: rgba(225, 225, 225, 0.8);
+    
+}
+
+.playing-from-title{
+    font-family: Montserrat-light;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+.playing-from-artist{
+    font-family: Montserrat-SemiBold;
+    margin-top: -10px;
+    font-size: 21px;
+
+}
+.spotify-logo{
+    margin-left: -65px;
+    margin-top: 15px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+}
